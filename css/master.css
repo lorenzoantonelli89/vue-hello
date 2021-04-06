@@ -17,4 +17,11 @@
 
 img{
     width: 200px;
+    margin-bottom: 30px;
+}
+
+#btn-change{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }

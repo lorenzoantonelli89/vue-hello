@@ -23,7 +23,10 @@
                 <h1>
                     {{text}}
                 </h1>
-                <img v-bind:src= "'img/' + image" alt="">
+                <img v-bind:src="image" alt="">
+                <div>
+                    <button @click="changeImg" id="btn-change">Change Image</button>
+                </div>
             </div>
         
         </div>
