@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi VueJS</title>
+    <!-- link jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- link vueJs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- link my js -->
+    <script src="js/main.js"></script>
+    <!-- link my css -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <h1>
+                    {{text}}
+                </h1>
+                <img v-bind:src= "'img/' + image" alt="">
+            </div>
+        
+        </div>
+    </div>
+</body>
+
+</html>
